@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -10,7 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.3"
+        android:layout_weight="0.5"
         android:orientation="horizontal">
         <TextView
             android:id="@+id/display"
@@ -37,7 +35,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="C"
             android:textColor="@color/white"
             android:textSize="40sp" />
@@ -47,7 +45,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="+/-"
             android:textColor="@color/white"
             android:textSize="30sp" />
@@ -58,7 +56,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="%"
             android:textColor="@color/white"
             android:textSize="30sp" />
@@ -87,7 +85,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="7"
             android:textColor="@color/white"
             android:textSize="40sp" />
@@ -98,7 +96,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="8"
             android:textColor="@color/white"
             android:textSize="40sp"/>
@@ -109,7 +107,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="9"
             android:textColor="@color/white"
             android:textSize="40sp"/>
@@ -139,7 +137,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="4"
             android:textColor="@color/white"
             android:textSize="40sp" />
@@ -150,7 +148,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="5"
             android:textColor="@color/white"
             android:textSize="40sp" />
@@ -161,7 +159,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="6"
             android:textColor="@color/white"
             android:textSize="40sp" />
@@ -191,7 +189,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="1"
             android:textColor="@color/white"
             android:textSize="40sp" />
@@ -202,7 +200,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="2"
             android:textColor="@color/white"
             android:textSize="40sp" />
@@ -213,7 +211,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="3"
             android:textColor="@color/white"
             android:textSize="40sp" />
@@ -243,7 +241,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.5"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="0"
             android:textColor="@color/white"
             android:textSize="40sp" />
@@ -254,7 +252,7 @@
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:layout_weight="0.25"
-            android:background="@color/myColor"
+            android:background="@color/myColorCalculator"
             android:text="."
             android:textColor="@color/white"
             android:textSize="40sp" />
