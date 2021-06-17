@@ -7,7 +7,6 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@drawable/weather_backgroud">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,7 +16,6 @@
         android:textSize="50dp"
         android:layout_marginTop="50dp"
         android:layout_gravity="center_horizontal"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

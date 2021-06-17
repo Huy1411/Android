@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         getDays();
         //B2
         LinearLayoutManager layoutManagerHour = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false);
-        LinearLayoutManager layoutManagerDay = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL, false);
+        LinearLayoutManager layoutManagerDay = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false);
         //B3
         //B4
         rvHour= (RecyclerView)findViewById(R.id.rvHour);

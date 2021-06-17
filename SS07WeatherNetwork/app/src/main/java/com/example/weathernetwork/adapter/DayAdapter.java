@@ -31,7 +31,7 @@ public class DayAdapter extends RecyclerView.Adapter {
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = activity.getLayoutInflater();
-        View itemView = inflater.inflate(R.layout.item_day, parent, false);
+        View itemView = inflater.inflate(R.layout.item_days, parent, false);
         DayHolder holder = new DayHolder(itemView);
         return holder;
     }

@@ -14,7 +14,7 @@ public class BookmarkEntity {
     public int id;
 
     @ColumnInfo(name = "date")
-    public Date date;
+    public String date;
     @ColumnInfo(name = "title")
     public String title;
     @ColumnInfo(name = "image")

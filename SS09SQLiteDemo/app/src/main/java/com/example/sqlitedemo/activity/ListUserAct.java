@@ -27,7 +27,6 @@ public class ListUserAct extends AppCompatActivity {
         setContentView(R.layout.activity_list_user);
         db = new DBHepler(this);
         ListView lvUser = (ListView) findViewById(R.id.lvUser);
-
         c = db.getAllUser();
         adapter = new SimpleCursorAdapter(this, R.layout.item_user, c, new String[]{
             DBHepler.ID, DBHepler.NAME, DBHepler.GENDER}, new int[]{

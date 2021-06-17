@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvTime"
-        android:text="Now"
+        android:text="Day"
         android:textColor="#fff"/>
     <ImageView
         android:layout_width="30dp"

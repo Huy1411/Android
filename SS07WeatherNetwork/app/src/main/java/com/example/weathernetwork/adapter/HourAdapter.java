@@ -35,7 +35,7 @@ public class HourAdapter extends RecyclerView.Adapter {
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull  ViewGroup parent, int viewType) {
 
         LayoutInflater inflater = activity.getLayoutInflater();
-        View itemView = inflater.inflate(R.layout.item_hour, parent, false);
+        View itemView = inflater.inflate(R.layout.item_hours, parent, false);
         HourHolder holder = new HourHolder(itemView);
         return holder;
     }
