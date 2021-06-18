@@ -1,31 +1,10 @@
 package com.example.employee.database;
 
-
-
-
 public class Employee {
     public int id;
     public String employeeName;
     public String designation;
-    public int salary;
-
-    public Employee() {
-        super();
-    }
-
-    public Employee(int id, String employeeName, String designation, int salary) {
-        super();
-        this.id = id;
-        this.employeeName = employeeName;
-        this.designation = designation;
-        this.salary = salary;
-    }
-
-    public Employee(String employeeName, String designation, int salary) {
-        this.employeeName = employeeName;
-        this.designation = designation;
-        this.salary = salary;
-    }
+    public String salary;
 
     public int getId() {
         return id;
@@ -51,11 +30,11 @@ public class Employee {
         this.designation = designation;
     }
 
-    public int getSalary() {
+    public String getSalary() {
         return salary;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(String salary) {
         this.salary = salary;
     }
 }

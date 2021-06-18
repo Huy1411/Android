@@ -46,12 +46,12 @@ public class DBHepler extends SQLiteOpenHelper {
         return c;
     }
 
-    public String addEmployee(Employee employee){
+    public String addEmployee(String name, String designation, String salary ){
         SQLiteDatabase db = this.getReadableDatabase();
         ContentValues contentValues = new ContentValues();
-        contentValues.put(EMPLOYEE_NAME, employee.getEmployeeName());
-        contentValues.put(DESIGNATION, employee.getDesignation());
-        contentValues.put(SALARY, employee.salary);
+        contentValues.put(EMPLOYEE_NAME, name);
+        contentValues.put(DESIGNATION, designation);
+        contentValues.put(SALARY, salary);
         long isAdd = db.insert(TABLE_NAME, null, contentValues);
         if(isAdd == -1){
             return "Add Fail";
@@ -60,13 +60,13 @@ public class DBHepler extends SQLiteOpenHelper {
         return "Add success";
     }
 
-    public String updateEmployee(Employee employee){
+    public String updateEmployee(int id, String name, String designation, String salary ){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
-        contentValues.put(EMPLOYEE_NAME, employee.getEmployeeName());
-        contentValues.put(DESIGNATION, employee.getDesignation());
-        contentValues.put(SALARY, employee.salary);
-        int isUpdate = db.update(TABLE_NAME, contentValues,ID+ "= ? ", new String[]{employee.id + ""});
+        contentValues.put(EMPLOYEE_NAME, name);
+        contentValues.put(DESIGNATION, designation);
+        contentValues.put(SALARY, salary);
+        int isUpdate = db.update(TABLE_NAME, contentValues,ID+ "= ? ", new String[]{id + ""});
         if(isUpdate > 0){
             return "Update success";
         }
@@ -83,7 +83,6 @@ public class DBHepler extends SQLiteOpenHelper {
         db.close();
         return "Delete fail";
     }
-
 
 
 }

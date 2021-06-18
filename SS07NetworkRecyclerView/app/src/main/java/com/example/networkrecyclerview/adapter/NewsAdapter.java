@@ -62,7 +62,7 @@ public class NewsAdapter extends RecyclerView.Adapter {
             tvTitle = itemView.findViewById(R.id.tvTitle);
             tvContent = itemView.findViewById(R.id.tvContent);
             tvDate = itemView.findViewById(R.id.tvDate);
-            ivCover = itemView.findViewById(R.id.ivCover);
+//            ivCover = itemView.findViewById(R.id.ivCover);
         }
     }
 }

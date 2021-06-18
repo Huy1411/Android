@@ -9,8 +9,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
 public class DBHepler extends SQLiteOpenHelper {
-
-
     private static final String DB_NAME = "USER";
     private static final int DB_VERSION = 1;
 
