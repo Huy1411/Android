@@ -19,8 +19,6 @@ public class ListUserAct extends AppCompatActivity {
     private Cursor c;
     private SimpleCursorAdapter adapter;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
